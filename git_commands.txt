@@ -1,0 +1,15 @@
+For new projects:
+    Create the Folder in local drive
+    transfer the files and bootstrap folders(i.e. css and js)
+    you may create a new html file from VS Code already
+    Right-click and start Git Bash at newly created folder
+    in Git Bash command interpreter, invoke "git init" command
+Open VS Code Editor if not already opened
+Open the newly created folder
+(Got to Terminal)
+(open Git Bash on the right-bottom of VS Code screen)
+git init
+git status
+git add .
+git commit -m "Comment about changes"
+git push -u origin master

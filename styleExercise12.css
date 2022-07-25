@@ -4,3 +4,7 @@ body{
 .banner{
     background-image: linear-gradient(red, yellow,green);
 }
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}

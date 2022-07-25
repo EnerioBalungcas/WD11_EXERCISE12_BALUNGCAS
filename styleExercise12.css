@@ -1,0 +1,6 @@
+body{
+    background-color: black;
+}
+.banner{
+    background-image: linear-gradient(red, yellow,green);
+}

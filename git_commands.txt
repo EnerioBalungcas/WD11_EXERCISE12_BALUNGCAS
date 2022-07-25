@@ -5,11 +5,18 @@ For new projects:
     Right-click and start Git Bash at newly created folder
     in Git Bash command interpreter, invoke "git init" command
 Open VS Code Editor if not already opened
+create the necessary files if not already done
 Open the newly created folder
-(Got to Terminal)
+(Go to Terminal)
 (open Git Bash on the right-bottom of VS Code screen)
-git init
+git init to initialize the repository in local drive
 git status
 git add .
-git commit -m "Comment about changes"
+git commit -m "Comment about changes" changes are being save locally
+create repository in gitHub.com
+git remote add origin (insert the https//: repository copied from GitHub)
 git push -u origin master
+
+if username is not recognized yet:
+git config --global user.name (enter registered username)
+git config --global user.email (enter registered email)

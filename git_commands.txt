@@ -11,12 +11,22 @@ Open the newly created folder
 (open Git Bash on the right-bottom of VS Code screen)
 git init to initialize the repository in local drive
 git status
-git add .
+git add . (to add all files, else indicate only the specific file.)
 git commit -m "Comment about changes" changes are being save locally
 create repository in gitHub.com
 git remote add origin (insert the https//: repository copied from GitHub)
 git push -u origin master
 
+to revert previous commits:
+git revert (insert her the code of the committed file in GitHub )
+git revert continue if error occurs
+git revert --abort
+git fetch
+git pull
+git restore . to restore all deleted files
+
 if username is not recognized yet:
 git config --global user.name (enter registered username)
 git config --global user.email (enter registered email)
+
+git reset --hard
